@@ -21,6 +21,7 @@
 		A0E441F119B9D47900C05923 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E441D319B9D47900C05923 /* UIKit.framework */; };
 		A0E441F919B9D47900C05923 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0E441F719B9D47900C05923 /* InfoPlist.strings */; };
 		A0E441FB19B9D47900C05923 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E441FA19B9D47900C05923 /* Git_TestTests.m */; };
+		A0E4420619B9D5E300C05923 /* SMNewFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E4420519B9D5E300C05923 /* SMNewFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A0E441F619B9D47900C05923 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		A0E441F819B9D47900C05923 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0E441FA19B9D47900C05923 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		A0E4420419B9D5E300C05923 /* SMNewFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMNewFile.h; sourceTree = "<group>"; };
+		A0E4420519B9D5E300C05923 /* SMNewFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMNewFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				A0E441DE19B9D47900C05923 /* SMAppDelegate.h */,
+				A0E4420419B9D5E300C05923 /* SMNewFile.h */,
+				A0E4420519B9D5E300C05923 /* SMNewFile.m */,
 				A0E441DF19B9D47900C05923 /* SMAppDelegate.m */,
 				A0E441E119B9D47900C05923 /* Main.storyboard */,
 				A0E441E419B9D47900C05923 /* SMViewController.h */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E4420619B9D5E300C05923 /* SMNewFile.m in Sources */,
 				A0E441E019B9D47900C05923 /* SMAppDelegate.m in Sources */,
 				A0E441E619B9D47900C05923 /* SMViewController.m in Sources */,
 				A0E441DC19B9D47900C05923 /* main.m in Sources */,
